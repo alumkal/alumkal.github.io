@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: AlumKal's Blog
 subtitle: ''
 description: ''
 keywords:
 author: AlumKal
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://alumkal.github.io
-permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
@@ -54,6 +54,8 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+mathjax:
+  tags: ams
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
