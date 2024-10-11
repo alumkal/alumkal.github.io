@@ -1,5 +1,7 @@
 ---
 title: LLM 学习笔记（一）：Transformer 模型的三种架构
+date: 2024/9/21
+updated: 2024/9/21
 mathjax: true
 tags: [AI, 深度学习, LLM]
 ---
