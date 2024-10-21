@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: 2024/7/4
-updated: 2024/7/4
+updated: 2024/10/21
 mathjax: true
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
@@ -28,6 +28,15 @@ let rec drop n xs = match (n, xs) with
   | (_, []) -> []
   | (0, xs) -> xs
   | (n, _::xs) -> drop (n-1) xs
+```
+
+### Mermaid test
+
+```mermaid
+sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+    Alice-)John: See you later!
 ```
 
 ### Create a new post
