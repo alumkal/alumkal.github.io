@@ -1,18 +1,18 @@
 ---
 title: Hello World
 date: 2024/7/4
-updated: 2024/10/21
-mathjax: true
+updated: 2024/12/15
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
-## Quick Start
+## 功能测试
 
-### LaTeX test
+### LaTeX
 
 $$\int_{0}^{1}\!x^{-x} \mathrm{d}x = \sum_{n=1}^{\infty}n^{-n}$$
 
-### Code test
+$2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274$
+
+### 代码块
 
 ```ocaml
 (* take first n elements from list xs *)
@@ -30,7 +30,11 @@ let rec drop n xs = match (n, xs) with
   | (n, _::xs) -> drop (n-1) xs
 ```
 
-### Mermaid test
+```plain
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+```
+
+### Mermaid 图
 
 ```mermaid
 sequenceDiagram
@@ -39,34 +43,8 @@ sequenceDiagram
     Alice-)John: See you later!
 ```
 
-### Create a new post
+### 折叠
 
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+{% note default no-icon 不要点开 %}
+Hidden text
+{% endnote %}
