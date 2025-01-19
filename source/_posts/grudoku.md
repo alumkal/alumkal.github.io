@@ -2,6 +2,7 @@
 title: 群数独
 date: 2024/12/13
 updated: 2024/12/21
+tags: [数学, 抽象代数]
 ---
 
 看抽象代数的时候突然想到，群的 Cayley 表和数独一样，都要求每行（列）中的元素互异。
@@ -36,6 +37,11 @@ $$
 $$
 
 {% note default no-icon 解析 %}
+表中 $2 \times 3 \ne 3 \times 2$，说明这个群一定是 $\mathrm{D}_{10}$.
+这里先明确一下记号：$\mathrm{D}_{2n} = \langle r, s \mid r^n = s^2 = e,\ sr = r^{-1}s \rangle$.
+
+解决题目的关键在于理解 $\mathrm{D}_{10}$ 的自同构。
+
 答案：
 
 $$

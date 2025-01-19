@@ -1,7 +1,7 @@
 ---
 title: 功能测试
 date: 2024/7/4
-updated: 2024/12/21
+updated: 2024/12/22
 ---
 
 ## TOC
@@ -18,13 +18,15 @@ updated: 2024/12/21
 
 $$\int_{0}^{1}\!x^{-x} \mathrm{d}x = \sum_{n=1}^{\infty}n^{-n}$$
 
-$\mathit{mathit} \quad \mathrm{mathrm} \quad \mathcal{mathcal} \quad \mathscr{mathscr} \quad \mathbb{mathbb} \quad \mathfrak{mathfrak}$
+$\int_{0}^{+\infty}\!\sin(x^2) \mathrm{d}x = \sqrt{\frac{\pi}{8}}$
 
-$\mathit{MATHIT} \quad \mathrm{MATHRM} \quad \mathcal{MATHCAL} \quad \mathscr{MATHSCR} \quad \mathbb{MATHBB} \quad \mathfrak{MATHFRAK}$
+$$\mathit{mathit} \quad \mathrm{mathrm} \quad \mathcal{mathcal} \quad \mathscr{mathscr} \quad \mathbb{mathbb} \quad \mathfrak{mathfrak}$$
 
-$\mathit{01234} \quad \mathrm{56789} \quad \mathcal{01234} \quad \mathscr{56789} \quad \mathbb{01234} \quad \mathfrak{56789}$
+$$\mathit{MATHIT} \quad \mathrm{MATHRM} \quad \mathcal{MATHCAL} \quad \mathscr{MATHSCR} \quad \mathbb{MATHBB} \quad \mathfrak{MATHFRAK}$$
 
-$2.7182818284590452353602874713526624977572470936999595749669676277240766303535475945713821785251664274$
+$$\mathit{01234} \quad \mathrm{56789} \quad \mathcal{01234} \quad \mathscr{56789} \quad \mathbb{01234} \quad \mathfrak{56789}$$
+
+$$2.71828\,18284\,59045\,23536\,02874\,71352\,66249\,77572\,47093\,69995\,95749\,66967\,62772\,40766\,30353\,54759\,45713\,82178\,52516\,64274$$
 
 ## 代码块
 
