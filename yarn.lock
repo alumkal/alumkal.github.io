@@ -480,6 +480,11 @@ hexo-cli@^4.3.2:
     resolve "^1.20.0"
     tildify "^2.0.0"
 
+hexo-filter-fix-cjk-spacing@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/hexo-filter-fix-cjk-spacing/-/hexo-filter-fix-cjk-spacing-0.0.5.tgz"
+  integrity sha512-kEumK9I070g+JGCRYWkUGfFwVpcIFYb6hITgvJ0udXAPSb43iO6mmZHhEGKfEhso5fbUDHor+p9tN9EEO18GKQ==
+
 hexo-front-matter@^4.2.1:
   version "4.2.1"
   resolved "https://registry.npmjs.org/hexo-front-matter/-/hexo-front-matter-4.2.1.tgz"

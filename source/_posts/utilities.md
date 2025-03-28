@@ -20,7 +20,7 @@ updated: 2025/1/19
 
 博主在科学计算方面基本只会 Python 生态，会用 MATLAB 或 Mathematica 的人可以忽略此节。
 
-Python 自带 REPL 的上位。支持保存历史记录、语法高亮~~以及用·`exit` 而非 `exit()` 退出~~等。其中一部分功能也添加到了 Python 3.13 的[新 REPL](https://docs.python.org/3/whatsnew/3.13.html#a-better-interactive-interpreter)中。
+Python 自带 REPL 的上位。支持保存历史记录、语法高亮~~以及用·`exit` 而非 `exit()` 退出~~等。其中一部分功能也添加到了 Python 3.13 的[新 REPL](https://docs.python.org/3/whatsnew/3.13.html#a-better-interactive-interpreter) 中。
 
 IPython 还支持一些拓展语法。博主比较常用的有：
 
