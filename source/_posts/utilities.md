@@ -1,7 +1,7 @@
 ---
 title: 实用工具
 date: 2025/1/19
-updated: 2025/1/19
+updated: 2025/3/28
 ---
 
 收录了一些博主喜欢的实用工具。本页面不定期更新。
@@ -34,3 +34,25 @@ IPython 还支持一些拓展语法。博主比较常用的有：
 比 Matplotlib 更现代的 Python 绘图库。这个库视 DataFrame 为一等公民，而且默认就能生成美观的交互式图表，适合 prototyping。
 
 美中不足的是深度定制样式还是不如 Matplotlib 方便，毕竟后者资料太多了。而且现在有大模型。
+
+## 网页小工具
+
+### [Pastebin](https://paste.c-net.org/)
+
+无需注册，支持不超过 50MB 的二进制文件，可以直接 POST/GET 的 pastebin。
+
+最朴素的就是最好用的。
+
+## Windows 工具
+
+### [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/)
+
+由微软官方开发的一组 Windows 上的奇怪小工具。本人用它把 CapsLock 键改成了 Backspace~~（因为我打字准度太差了~~
+
+### [AutoHotkey](https://www.autohotkey.com/)
+
+用于操作自动化的脚本语言，可以写一些快捷键什么的。其实拿来写游戏的挂机脚本都可以，就是满屏 `ImageSearch` 啊 `Click` 啊可维护性太差了。
+
+### [WizTree](https://diskanalyzer.com/)
+
+可以非常快速地统计出磁盘占用的树形结构，清理磁盘空间时很有用。
