@@ -16,7 +16,7 @@ tags: [AI, 深度学习, LLM]
 显然，这种方法在需要测试多种模型时会很麻烦。
 
 有没有更通用一点的方法呢？有的！通过阅读[源码](https://github.com/huggingface/transformers/blob/10baffb599cd32099f1a9780b6569f0e02a0ad80/src/transformers/models/llama/modeling_llama.py#L671C1-L706C41)可以发现，当模型把 2d 的 attention mask（这个参数是从 `forward` 一路传过来的）转化为 4d 时，如果输入已经是 4d 的话，这个函数会直接返回输入。
-因此通过这个文档里没有的 API，就可以传递 attention mask 矩阵了。
+因此通过这个不在文档里的 API，就可以传递 attention mask 矩阵了。
 
 代码大概是这样的：（注意传入的 mask 值应为 -inf/0 而非 0/1）
 
